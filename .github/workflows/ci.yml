@@ -35,7 +35,7 @@ jobs:
         run: |
           poetry run pytest
 
-      - name: Run pypint
+      - name: Run pylint
         run: |
           poetry run pylint ./fast-api
           
