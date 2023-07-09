@@ -37,7 +37,7 @@ jobs:
 
       - name: Run pylint
         run: |
-          poetry run pylint ./fast-api
+          poetry run pylint ./fast_api
           
 
 
